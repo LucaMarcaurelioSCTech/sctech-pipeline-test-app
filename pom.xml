@@ -74,11 +74,18 @@
 	</dependencies>
 
 	<distributionManagement>
-			  <repository>
-			    <id>anypoint-exchange-v3</id>
-			    <url>https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/13288bb7-ccc4-4108-9e54-24e64a134411/maven</url>
-			  </repository>
-			</distributionManagement>
+  <repository>
+    <id>anypoint-exchange-v3</id>
+    <url>https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/13288bb7-ccc4-4108-9e54-24e64a134411/maven</url>
+    <layout>default</layout>
+  </repository>
+
+  <snapshotRepository>
+    <id>anypoint-exchange-v3</id>
+    <url>https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/13288bb7-ccc4-4108-9e54-24e64a134411/maven</url>
+    <layout>default</layout>
+  </snapshotRepository>
+</distributionManagement>
 
 	<repositories>
 		
