@@ -32,7 +32,7 @@
             <uri>https://eu1.anypoint.mulesoft.com</uri>
             <provider>MC</provider>
             <environment>Sandbox</environment>
-            <target>Cloudhub-US-east-1</target>
+            <target>Cloudhub-EU-Central-1</target>
             <muleVersion>4.9.10</muleVersion>
             <connectedAppClientId>${anypoint.clientId}</connectedAppClientId>
 		<connectedAppClientSecret>${anypoint.clientSecret}</connectedAppClientSecret>
@@ -80,7 +80,7 @@
 		
 			  <repository>
 			    <id>anypoint-exchange-v3</id>
-			    <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/31f093b5-a64d-4232-8dd8-1a0bcce89388/maven</url>
+			    <url>https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/31f093b5-a64d-4232-8dd8-1a0bcce89388/maven</url>
 				  <releases>
 				    <enabled>true</enabled>
 				  </releases>
@@ -116,13 +116,13 @@
 <distributionManagement>
   <repository>
     <id>anypoint-exchange-v3</id>
-    <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/31f093b5-a64d-4232-8dd8-1a0bcce89388/maven</url>
+    <url>https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/31f093b5-a64d-4232-8dd8-1a0bcce89388/maven</url>
     <layout>default</layout>
   </repository>
 
   <snapshotRepository>
     <id>anypoint-exchange-v3</id>
-    <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/31f093b5-a64d-4232-8dd8-1a0bcce89388/maven</url>
+    <url>https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/31f093b5-a64d-4232-8dd8-1a0bcce89388/maven</url>
     <layout>default</layout>
   </snapshotRepository>
 </distributionManagement>
