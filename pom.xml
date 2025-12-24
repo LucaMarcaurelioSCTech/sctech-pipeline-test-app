@@ -32,19 +32,16 @@
         <cloudhub2Deployment>
             <uri>https://eu1.anypoint.mulesoft.com</uri>
             <provider>MC</provider>
-
-           
             <environment>Sandbox</environment>
             <target>Cloudhub-EU-Central-1</target>
-
             <muleVersion>4.9.10</muleVersion>
 
-           
-            <connectedAppClientId>616ea71301434d59879294e352eba925</connectedAppClientId>
-            <connectedAppClientSecret>69aAc020D9d143868719dF3221878b19</connectedAppClientSecret>
+            <!-- OBBLIGATORIO CH2 -->
+            <connectedAppClientId>${anypoint.clientId}</connectedAppClientId>
+            <connectedAppClientSecret>${anypoint.clientSecret}</connectedAppClientSecret>
             <connectedAppGrantType>client_credentials</connectedAppGrantType>
 
-            <applicationName>sctech-pipeline-test-app</applicationName>
+            <applicationName>pipeline</applicationName>
             <businessGroupId>36ee1c61-389a-49a0-9f84-c5d213d44ca7</businessGroupId>
 
             <replicas>1</replicas>
