@@ -35,10 +35,7 @@
             <environment>Sandbox</environment>
             <target>Cloudhub-EU-Central-1</target>
             <muleVersion>4.9.10</muleVersion>
-            <connectedAppClientId>${anypoint.clientId}</connectedAppClientId>
-		<connectedAppClientSecret>${anypoint.clientSecret}</connectedAppClientSecret>
-		<connectedAppGrantType>client_credentials</connectedAppGrantType>
-
+            
             <applicationName>sctech-pipeline-test-app</applicationName>
             <businessGroupId>36ee1c61-389a-49a0-9f84-c5d213d44ca7</businessGroupId>
             <replicas>1</replicas>
