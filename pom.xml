@@ -23,7 +23,7 @@
 <uri>https://eu1.anypoint.mulesoft.com</uri>
 <provider>MC</provider>
 <environment>Sandbox</environment>
-<target>CloudHub-EU-Central-1</target>
+<target>cloudHub-EU-central-1</target>
 <muleVersion>4.6.0</muleVersion>
 <!--  OBBLIGATORIO CH2  -->
 <connectedAppClientId>616ea71301434d59879294e352eba925</connectedAppClientId>
