@@ -28,7 +28,6 @@
     <version>${mule.maven.plugin.version}</version>
     <extensions>true</extensions>
 
-
     <configuration>
         <cloudhub2Deployment>
             <uri>https://eu1.anypoint.mulesoft.com</uri>
@@ -36,18 +35,18 @@
             <environment>Sandbox</environment>
             <target>Cloudhub-EU-Central-1</target>
             <muleVersion>4.9.10</muleVersion>
-            <connectedAppClientId>${anypoint.clientId}</connectedAppClientId>
-		<connectedAppClientSecret>${anypoint.clientSecret}</connectedAppClientSecret>
-		<connectedAppGrantType>client_credentials</connectedAppGrantType>
 
             <applicationName>sctech-pipeline-test-app</applicationName>
             <businessGroupId>13288bb7-ccc4-4108-9e54-24e64a134411</businessGroupId>
+
             <replicas>1</replicas>
             <vCores>0.1</vCores>
         </cloudhub2Deployment>
+
         <classifier>mule-application</classifier>
     </configuration>
 </plugin>
+
 		
 
 <plugin>
