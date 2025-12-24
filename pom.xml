@@ -24,7 +24,7 @@
 <provider>MC</provider>
 <environment>Sandbox</environment>
 <target>CloudHub-EU-Central-1</target>
-<muleVersion>4.10.1</muleVersion>
+<muleVersion>4.6.0</muleVersion>
 <!--  OBBLIGATORIO CH2  -->
 <connectedAppClientId>616ea71301434d59879294e352eba925</connectedAppClientId>
 <connectedAppClientSecret>69aAc020D9d143868719dF3221878b19</connectedAppClientSecret>
