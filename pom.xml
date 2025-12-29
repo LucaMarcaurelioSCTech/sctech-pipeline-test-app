@@ -123,7 +123,7 @@
 <enabled>false</enabled>
 </snapshots>
 </pluginRepository>
-
+<!--
 
     <pluginRepository>
         <id>mulesoft-release</id>
@@ -135,7 +135,7 @@
         </snapshots>
     </pluginRepository>
 
-
+-->
 
   
 </pluginRepositories>
