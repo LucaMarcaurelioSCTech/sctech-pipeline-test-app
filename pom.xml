@@ -30,7 +30,7 @@
 <connectedAppClientSecret>69aAc020D9d143868719dF3221878b19</connectedAppClientSecret>
 <connectedAppGrantType>client_credentials</connectedAppGrantType>
 <applicationName>pipeline-dev-2025</applicationName>
-
+<businessGroupId>36ee1c61-389a-49a0-9f84-c5d213d44ca7</businessGroupId>
 <replicas>1</replicas>
 <vCores>0.1</vCores>
 </cloudhub2Deployment>
