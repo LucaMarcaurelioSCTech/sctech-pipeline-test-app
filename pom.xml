@@ -13,32 +13,32 @@
 </properties>
 <build>
 <plugins>
-<plugin>
-<groupId>org.mule.tools.maven</groupId>
-<artifactId>mule-maven-plugin</artifactId>
-<version>4.3.0</version>
-<extensions>true</extensions>
-<configuration>
-<cloudhub2Deployment>
-<uri>https://eu1.anypoint.mulesoft.com</uri>
-<provider>MC</provider>
-<environment>Sandbox</environment>
-<target>cloudHub-EU-central-1</target>
-<muleVersion>4.6.0</muleVersion>
-<!--  OBBLIGATORIO CH2  -->
-<connectedAppClientId>616ea71301434d59879294e352eba925</connectedAppClientId>
-<connectedAppClientSecret>69aAc020D9d143868719dF3221878b19</connectedAppClientSecret>
-<connectedAppGrantType>client_credentials</connectedAppGrantType>
-<applicationName>pipeline-dev-2025</applicationName>
-<businessGroupId>36ee1c61-389a-49a0-9f84-c5d213d44ca7</businessGroupId>
-<replicas>1</replicas>
-<vCores>0.1</vCores>
-</cloudhub2Deployment>
 
-</configuration>
+  
+  <plugin>
+    <groupId>org.mule.tools.maven</groupId>
+    <artifactId>mule-maven-plugin</artifactId>
+    <version>4.3.0</version>
+    <extensions>true</extensions>
+    <configuration>
+      <cloudhub2Deployment>
+        <uri>https://eu1.anypoint.mulesoft.com</uri>
+        <provider>MC</provider>
+        <environment>Sandbox</environment>
+        <target>cloudHub-EU-central-1</target>
+        <muleVersion>4.6.0</muleVersion>
+        <connectedAppClientId>616ea71301434d59879294e352eba925</connectedAppClientId>
+        <connectedAppClientSecret>69aAc020D9d143868719dF3221878b19</connectedAppClientSecret>
+        <connectedAppGrantType>client_credentials</connectedAppGrantType>
+        <applicationName>pipeline-dev-2025</applicationName>
+        <businessGroupId>36ee1c61-389a-49a0-9f84-c5d213d44ca7</businessGroupId>
+        <replicas>1</replicas>
+        <vCores>0.1</vCores>
+      </cloudhub2Deployment>
+    </configuration>
 </plugin>
 
-<!--
+
 <plugin>
 <groupId>org.mule.tools.maven</groupId>
 <artifactId>exchange-mule-maven-plugin</artifactId>
@@ -47,7 +47,7 @@
 <skip>true</skip>
 </configuration>
 </plugin>
-  -->
+  
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-clean-plugin</artifactId>
