@@ -21,11 +21,12 @@
             <enabled>false</enabled>
         </snapshots>
     </pluginRepository>
+   </pluginRepositories>
   
 <build>
 
 
-</pluginRepositories>
+
   
   
   <plugins>
