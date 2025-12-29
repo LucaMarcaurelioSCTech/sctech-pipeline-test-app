@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 <modelVersion>4.0.0</modelVersion>
-<groupId>13288bb7-ccc4-4108-9e54-24e64a134411</groupId>
+<groupId>36ee1c61-389a-49a0-9f84-c5d213d44ca7</groupId>
 <artifactId>pipeline</artifactId>
 <version>1.0.1-SNAPSHOT</version>
 <packaging>mule-application</packaging>
