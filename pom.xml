@@ -2,7 +2,7 @@
 <modelVersion>4.0.0</modelVersion>
 <groupId>36ee1c61-389a-49a0-9f84-c5d213d44ca7</groupId>
 <artifactId>pipeline</artifactId>
-<version>1.0.0-SNAPSHOT</version>
+<version>1.0.2-SNAPSHOT</version>
 <packaging>mule-application</packaging>
 <name>pipeline</name>
 <properties>
