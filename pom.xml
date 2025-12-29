@@ -11,8 +11,24 @@
 <app.runtime>4.4.0</app.runtime>
 <mule.maven.plugin.version>4.3.0</mule.maven.plugin.version>
 </properties>
+   <pluginRepositories>
+    <pluginRepository>
+        <id>mulesoft-release</id>
+        <name>mulesoft release repository</name>
+        <layout>default</layout>
+        <url>https://repository.mulesoft.org/releases/</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </pluginRepository>
+  
 <build>
-<plugins>
+
+
+</pluginRepositories>
+  
+  
+  <plugins>
 
   
   <plugin>
@@ -58,11 +74,16 @@
   <plugin>
     <groupId>org.mule.tools.maven</groupId>
     <artifactId>exchange-mule-maven-plugin</artifactId>
-    <version>0.1.4</version>
+    <version>0.1.4</version> <executions>
+        <execution>
+            <id>default-deploy</id>
+            <phase>none</phase> </execution>
+    </executions>
     <configuration>
-      <skip>true</skip>
+        <skip>true</skip>
     </configuration>
-  </plugin>
+</plugin>
+
   -->
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
