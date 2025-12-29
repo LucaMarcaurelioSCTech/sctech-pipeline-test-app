@@ -80,7 +80,7 @@
 <repository>
 <id>mulesoft-releases</id>
 <name>MuleSoft Releases Repository</name>
-<url>https://repository.mulesoft.org</url>
+<url>https://repository.mulesoft.org/releases/</url>
 <layout>default</layout>
 </repository>
 </repositories>
@@ -89,7 +89,7 @@
 <id>mulesoft-releases</id>
 <name>MuleSoft Releases Repository</name>
 <layout>default</layout>
-<url>https://repository.mulesoft.org</url>
+<url>https://repository.mulesoft.org/releases/</url>
 <snapshots>
 <enabled>false</enabled>
 </snapshots>
