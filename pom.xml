@@ -2,7 +2,7 @@
 <modelVersion>4.0.0</modelVersion>
 <groupId>36ee1c61-389a-49a0-9f84-c5d213d44ca7</groupId>
 <artifactId>pipeline-nero</artifactId>
-<version>2.0.1</version>
+<version>2.0.5</version>
 <packaging>mule-application</packaging>
 <name>pipeline-nero</name>
 <properties>
